@@ -15,27 +15,30 @@ const Portfolio = () => {
     <div>
       <section class="portfolio" id="portfolio">
         <h2 class="heading">
-          <span>My</span> Portfolio
+          {" "}
+          <span>My</span> Portfolio{" "}
         </h2>
-
         <div class="work-section">
           <div class="work ">
             <h2>Hunation</h2>
             <div class="work-img">
               <a href="/">
-                <img src={Hunation} alt="Hunation" />
+                {" "}
+                <img src={Hunation} alt="Hunation" />{" "}
               </a>
             </div>
             <p>
+              {" "}
               This is a restaurant Website made using React Js | CSS | Java
-              Script
+              Script{" "}
             </p>
           </div>
           <div class="work ">
             <h2>To Do List</h2>
             <div class="work-img">
               <a href="/">
-                <img src={ToDOList} alt="Alternate" />
+                {" "}
+                <img src={ToDOList} alt="Alternate" />{" "}
               </a>
             </div>
             <p>Daily To Do List made with html | CSS | Java Script</p>
@@ -45,7 +48,7 @@ const Portfolio = () => {
             <div class="work-img">
               <a href="/">
                 {" "}
-                <img src={TempConvertor} alt="Alternate" />
+                <img src={TempConvertor} alt="Alternate" />{" "}
               </a>
             </div>
             <p>Celcius to Faranheit to Kelvin Convertor using Java Script</p>
@@ -54,7 +57,8 @@ const Portfolio = () => {
             <h2>Plantlet</h2>
             <div class="work-img">
               <a href="/">
-                <img src={Plantlet} alt="Alternate" />
+                {" "}
+                <img src={Plantlet} alt="Alternate" />{" "}
               </a>
             </div>
             <p>Hackathon project built using React Js | Firebase</p>
